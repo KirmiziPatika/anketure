@@ -1,16 +1,12 @@
-# anketure
 
-A new Flutter project.
+![Kırmızı Patika Project's](assets/kirmizipatikaproject.jpg)
+## **🚀Anketure Flutter Uygulaması**
+Anketure Flutter Uygulaması projesi, insanların diledikleri konularda anket başlatabildikleri ve oy toplayabildikleri bir web uygulamasıdır. Bu projenin hitap ettiği kitle, sesini duyurmak isteyen kullanıcı kitlesidir.
 
-## Getting Started
+Projeyi klonladıktan sonra hata alırsanız `pubspec.yaml` klasörünü düzenleyin: `flutter pub get`
 
-This project is a starting point for a Flutter application.
+Gerekli dosyalar projede bulunmuyor olabilir. Böyle bir durumda Kırmızı Patika ile iletişime geçin.
 
-A few resources to get you started if this is your first Flutter project:
+[Kırmızı Patika](mailto:kirmizipatika@gmail.com)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+İyi Kodlamalar! 🇹🇷 
