@@ -13,3 +13,4 @@ Gerekli dosyalar projede bulunmuyor olabilir. Böyle bir durumda Kırmızı Pati
 
 ## **Sürüm Notları**
 * **1.0.0 (JeaFriday):** Uygulamanın temelleri atıldı. Widget'lar geliştirildi, renk paleti hazırlandı, top menü geliştirildi.
+* **1.0.0 (Spoon):** Uygulamada anket oluşturma tasarımları yapıldı ve temelleri atıldı.
