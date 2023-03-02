@@ -11,6 +11,9 @@ class PoppinsText extends StatelessWidget {
   final double? fontSize;
   final TextAlign? textAlign;
   final FontWeight? fontWeight;
+  final int? maxLines;
+  final bool softWrap;
+  final TextOverflow? overflow;
   const PoppinsText({
     super.key,
     required this.title,
@@ -18,13 +21,19 @@ class PoppinsText extends StatelessWidget {
     this.fontSize,
     this.textAlign,
     this.fontWeight,
+    this.maxLines,
+    this.overflow,
+    this.softWrap = false,
   });
 
   @override
   Widget build(BuildContext context) {
     return Text(
       title,
+      overflow: overflow,
       textAlign: textAlign ?? TextAlign.left,
+      maxLines: maxLines,
+      softWrap: softWrap,
       style: GoogleFonts.poppins(
         color: color ?? Colors.white,
         fontSize: fontSize ?? 14,

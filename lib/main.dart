@@ -1,5 +1,5 @@
+import 'package:anketure/page/public/comments.dart';
 import 'package:flutter/material.dart';
-import 'page/public/home.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class Anketure extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const CommentPage(),
     );
   }
 }

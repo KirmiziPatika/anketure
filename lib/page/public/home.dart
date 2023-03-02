@@ -1,5 +1,4 @@
-import 'package:anketure/page/public/add.dart';
-import 'package:anketure/page/public/addpost.dart';
+import 'package:anketure/page/public/comments.dart';
 import 'package:anketure/page/schema/top.dart';
 import 'package:anketure/widget/text.dart';
 import 'package:flutter/material.dart';
@@ -49,7 +48,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
         child: const Center(
-          child: AddPost(),
+          child: CommentPage(),
         ),
       ),
       floatingActionButton: FloatingActionButton(
