@@ -20,31 +20,32 @@ class UserMessage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.start,
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(
-            height: 70,
-            width: 70,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(100)),
-            child: Image.network(fit: BoxFit.fill, profilePhoto)),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        Row(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            Container(
+                height: 70,
+                width: 70,
+                decoration:
+                    BoxDecoration(borderRadius: BorderRadius.circular(100)),
+                child: Image.network(fit: BoxFit.fill, profilePhoto)),
             UsernameAndDate(
               tag: Padding(
                 padding: const EdgeInsets.only(left: 7),
                 child: Label(labelText: labelText),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-              child: PoppinsText(
-                title: message,
-              ),
-            ),
+            )
           ],
-        )
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left: 87, right: 10),
+          child: PoppinsText(
+            title: message,
+          ),
+        ),
       ],
     );
   }
